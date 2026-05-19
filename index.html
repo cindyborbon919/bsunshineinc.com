@@ -61,7 +61,7 @@ nav{background:rgba(255,255,255,0.97);backdrop-filter:blur(16px);padding:1rem 2.
 .hero-inner{max-width:860px;margin:0 auto;display:block;padding:3.5rem 2rem 3rem}
 @media(max-width:780px){}
 
-.hero-eyebrow{font-size:0.62rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--rose);margin-bottom:1.2rem;display:flex;align-items:center;gap:0.6rem;flex-wrap:wrap}
+.hero-eyebrow{font-size:0.62rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:var(--rose);margin-bottom:1.2rem;display:flex;align-items:center;gap:0.6rem}
 .hero-eyebrow::before{content:"";width:22px;height:1.5px;background:linear-gradient(90deg,var(--sun),var(--rose-soft));border-radius:1px}
 .hero-h1{font-size:2.8rem;line-height:1.1;font-weight:800;color:var(--text);margin-bottom:1rem;letter-spacing:-0.02em}
 @media(max-width:780px){.hero-h1{font-size:2.1rem}}
@@ -273,8 +273,8 @@ footer{background:linear-gradient(150deg,var(--dusk),var(--sky-mid));padding:3re
 
 /* ===== MOBILE ===== */
 @media(max-width:640px){
-.eyebrow-text{letter-spacing:0.12em;font-size:0.55rem}
-.eyebrow-dot{color:var(--rose);font-size:0.55rem}
+.hero-eyebrow{font-size:0.48rem;letter-spacing:0.1em;gap:0.3rem}
+  .hero-eyebrow::before{width:14px}
   nav{padding:0.75rem 1rem}
   .logo-img{height:44px!important}
   .nav-links{gap:0.6rem}
@@ -381,7 +381,7 @@ footer{background:linear-gradient(150deg,var(--dusk),var(--sky-mid));padding:3re
   <div class="hero-deco hd3"></div><div class="hero-deco hd4"></div><div class="hero-deco hd5"></div>
   <div class="hero-inner">
     <div class="hero-body">
-      <div class="hero-eyebrow"><span class="t" data-en="Latina-Owned · Bilingual" data-es="Empresa Latina · Bilingüe">Latina-Owned · Bilingual</span><span class="t eyebrow-dot">·</span><span class="t" data-en="Los Angeles" data-es="Los Ángeles">Los Angeles</span></div>
+      <div class="hero-eyebrow"><span class="t" data-en="Latina-Owned · Bilingual · Los Angeles" data-es="Empresa Latina · Bilingüe · Los Ángeles">Latina-Owned · Bilingual · Los Angeles</span></div>
       <h1 class="hero-h1"><span class="t" data-en="You have a vision.<br><em>We build the foundation.</em><br><strong>Let's do this.</strong>" data-es="Tienes la visión.<br><em>Nosotros construimos la base.</em><br><strong>Hagámoslo.</strong>">You have a vision.<br><em>We build the foundation.</em><br><strong>Let's do this.</strong></span></h1>
       <p class="hero-sub t" data-en="Simple. Clear. Step by step. No confusing language, just real warm support to get your business built right." data-es="Simple. Claro. Paso a paso. Sin lenguaje confuso, solo apoyo real y cálido para construir tu negocio bien.">Simple. Clear. Step by step. No confusing language, just real warm support to get your business built right.</p>
       <div class="hero-btns">
